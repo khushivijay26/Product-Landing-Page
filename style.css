@@ -14,15 +14,14 @@ body {
     grid-template-areas: "header""main""footer";
 }
 
-#header {
+#header{
     background-color: #EEEEEE;
     grid-area: header;
     display: flex;
     align-items: center;
-    padding: 1%;
+    padding: 0 1%;
     justify-content: space-between;
     position: fixed;
-    z-index: 2;
 }
 
 #main {
@@ -237,6 +236,7 @@ p {
     body {
         overflow-x: auto;
         margin-left: -3rem;
+        font-size: 20px;
     }
 
     #grid-container {
@@ -251,15 +251,15 @@ p {
     }
 
     #brand-logo {
-        max-width: 400px;
-        align-content: center;
+        max-width: 600px;
+        padding-left: 50px;
     }
 
     #navbar-links {
         flex-direction: column;
         white-space: nowrap;
-        align-items: left;
-
+        align-items: center;
+        padding-left: 70px;
     }
 
     li {
