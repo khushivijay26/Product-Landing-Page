@@ -22,6 +22,8 @@ body {
     padding: 0 1%;
     justify-content: space-between;
     position: fixed;
+    left: 0;
+    right: 0;
 }
 
 #main {
